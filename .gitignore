@@ -1,0 +1,5 @@
+#MCMC
+*.h5
+
+#data files
+*.dat
