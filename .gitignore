@@ -3,3 +3,6 @@
 
 #data files
 *.dat
+
+#python files
+*.pyc
