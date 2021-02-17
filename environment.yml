@@ -1,4 +1,4 @@
-name: sensitivity
+name: QGP_Bayes
 channels:
 - conda-forge
 dependencies:
