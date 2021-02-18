@@ -7,5 +7,8 @@
 For more information please refer to *[Conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)* 
 >conda env create --file environment.yml\
 >conda activate QGP_Bayes\
->jupyter notebook --browser=safari
+>jupyter notebook --browser=safari\
+
+*A example of a Posterior using this Jupyter Notebook*
+![alt text](https://github.com/danOSU/QGP_Bayes/blob/main/Results/FigureFiles/JETSCAPE_bayesfull.png)
 
