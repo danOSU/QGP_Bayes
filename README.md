@@ -9,6 +9,6 @@ For more information please refer to *[Conda documentation](https://docs.conda.i
 >conda activate QGP_Bayes\
 >jupyter notebook --browser=safari\
 
-# Posterior made by the Jupyter Notebook
+*A examplle of a Posterior using this Jupyter Notebook*
 ![alt text](https://github.com/danOSU/QGP_Bayes/blob/main/Results/FigureFiles/JETSCAPE_bayesfull.png)
 
