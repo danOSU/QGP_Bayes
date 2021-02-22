@@ -1,4 +1,4 @@
-# BAND SDK Community Policy Compatibility for \<package\>
+# BAND SDK Community Policy Compatibility for \<JETSCAPE Bayesian Analysis\>
 
 
 > This document summarizes the efforts of current and future BAND member packages to achieve compatibility with the BAND SDK community policies. Additional details on the BAND SDK are available [here](https://github.com/bandframework/privateband/blob/team/Resources/bandsdk.md) and should be considered when filling out this form.
@@ -11,7 +11,7 @@ For current BAND SDK packages: If you were not fully compatible at some point, p
 
 
 
-**Website:** \<package website\>
+**Website:** \<https://github.com/j-f-paquet/emulator-validation.git\>
 
 ### Mandatory Policies
 
