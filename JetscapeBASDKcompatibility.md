@@ -11,7 +11,7 @@ For current BAND SDK packages: If you were not fully compatible at some point, p
 
 
 
-**[Website](https://github.com/j-f-paquet/emulator-validation.git)**
+**[JETSCAPE Bayesian Analysis Code](https://github.com/j-f-paquet/emulator-validation.git)**
 
 ### Mandatory Policies
 
