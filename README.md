@@ -1,5 +1,4 @@
-# QGP_Bayes
-### Bayesian parameter estimation code for Relativistic Heavy Ion Collisions
+# Bayesian parameter estimation code for Relativistic Heavy Ion Collisions
 
 1. Get experimental Data folder and unzip the simulation data
 >sh prepare.sh
