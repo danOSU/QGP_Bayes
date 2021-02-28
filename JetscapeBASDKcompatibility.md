@@ -22,7 +22,7 @@ For current BAND SDK packages: If you were not fully compatible at some point, p
 | 2. | Provide a comprehensive test suite for correctness of installation verification |not compliant| No tests are provided at this time.| 
 | 3. | Provide a documented, reliable way to contact the development team |fully compliant| Development team can be contacted via github||
 | 4. | Come with an open-source license |fully compliant| Use MIT license.|
-| 5. | Provide a runtime API to return the current version number of the software |not compliant|No API has been designed. For now the code is a collections of python modules under one src folder|
+| 5. | Provide a runtime API to return the current version number of the software |not compliant|No API has been designed. For now the code is a collection of python modules under one src folder|
 | 6. | Provide a BAND team-accessible repository |fully compliant|https://github.com/j-f-paquet/emulator-validation.git|
 | 7. | Must allow installing, building, and linking against an outside copy of all imported software that is externally developed and maintained |fully compliant| The code does not contain any other package's source code within. Note that Python packages are imported using the conventional `sys.path` system. Alternative instances of a package can be used, for example, by including them through an appropriate definition of the PYTHONPATH environment variable.|
 | 8. |  Have no hardwired print or IO statements that cannot be turned off |not compliant| There are print sttements that can not be turned off|
