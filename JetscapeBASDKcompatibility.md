@@ -36,7 +36,7 @@ M1 details <a id="m1-details"></a>: https://packaging.python.org/tutorials/packa
 |**R1.**| Have a public repository. |fully compliant| https://github.com/j-f-paquet/emulator-validation.git|
 |**R2.**| Free all system resources acquired as soon as they are no longer needed. |fully compliant| Python has built-in garbage collection that frees memory when it becomes unreferenced. |
 |**R3.**| Provide a mechanism to export ordered list of library dependencies. |not compliant|Proper instalation of dependencies has yet to be included|
-|**R4.**| Document versions of packages that it works with or depends upon, preferably in machine-readable form.  |None| None.|
+|**R4.**| Document versions of packages that it works with or depends upon, preferably in machine-readable form.  |fully compliant| Conda environement.yml file is provided with relevent dependenicies and in machine-readable form|
 |**R5.**| Have README, SUPPORT, LICENSE, and CHANGELOG files in top directory.  |partially compliant| README and LICENSE exist|
 |**R6.**| Have sufficient documentation to support use and further development.  |partially compliant|  No documentation except for function definitions. This code was developed based on a previous code and for that documentation is available at  http://qcd.phy.duke.edu/hic-param-est/|
 |**R7.**| Be buildable using 64-bit pointers; 32-bit is optional.|fully compliant| There is no explicit use of pointers in surmise, as Python handles pointers internally and depends on the install of Python, which will generally be 64-bit on supported systems.|
