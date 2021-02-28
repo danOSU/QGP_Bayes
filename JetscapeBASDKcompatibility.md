@@ -18,7 +18,7 @@ For current BAND SDK packages: If you were not fully compatible at some point, p
 **BAND SDK**
 | # | Policy                 |Support| Notes                   |
 |---|-----------------------|-------|-------------------------|
-| 1. | Support BAND community GNU Autoconf, CMake, or other build options |partially compliant| The code is in Python.It provides a environment.yml file to make a conda environment with relevent dependenicies. But it does not contain a setup/instalation file. Can be Python packaged;see below. [M1 details](#m1-details)|
+| 1. | Support BAND community GNU Autoconf, CMake, or other build options |partially compliant| The code is in Python.It provides an environment.yml file to make a conda environment with relevent dependenicies. But it does not contain a setup/instalation file. Can be Python packaged;see below. [M1 details](#m1-details)|
 | 2. | Provide a comprehensive test suite for correctness of installation verification |not compliant| No tests are provided at this time.| 
 | 3. | Provide a documented, reliable way to contact the development team |partially compliant| No documentation except for function definitions. Can use Sphenix for documentation; see below. [M3 details](#m3-details). Development team can be contacted via github||
 | 4. | Come with an open-source license |fully compliant| Use MIT license.|
