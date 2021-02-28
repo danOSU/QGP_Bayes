@@ -9,6 +9,6 @@ For more information please refer to *[Conda documentation](https://docs.conda.i
 >conda activate QGP_Bayes\
 >jupyter notebook --browser=safari\
 
-*A example of a Posterior using this Jupyter Notebook*
-![alt text](https://github.com/danOSU/QGP_Bayes/blob/main/Results/FigureFiles/JETSCAPE_bayesfull.png)
+# Posteriors using this *[Jupyter Notebook](https://github.com/danOSU/QGP_Bayes/blob/main/Bayesian%20Parameter%20Estimation%20for%20Relativistic%20Heavy%20Ion%20Physics.ipynb)*
+![alt text](https://github.com/danOSU/QGP_Bayes/blob/main/Results/FigureFiles/JETSCAPE_bayespartial.png)
 
