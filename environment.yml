@@ -8,7 +8,7 @@ dependencies:
 - scipy
 - matplotlib
 - pandas
-- seaborn
+- seaborn=0.11.1
 - jupyter
 - ipywidgets
 - nbdime

@@ -171,7 +171,7 @@ usePTSampler = False
 
 # if True : perform emulator validation
 # if False : use experimental data for parameter estimation
-validation = True
+validation = False
 #if true, we will validate emulator against points in the training set
 pseudovalidation = False
 #if true, we will omit 20% of the training design when training emulator
