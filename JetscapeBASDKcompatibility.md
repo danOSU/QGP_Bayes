@@ -1,4 +1,4 @@
-# BAND SDK Community Policy Compatibility for JETSCAPE Bayesian Analysis
+# BAND SDK Community Policy Compatibility for JETSCAPE Sims Bayesian Analysis
 
 
 > This document summarizes the efforts of current and future BAND member packages to achieve compatibility with the BAND SDK community policies. Additional details on the BAND SDK are available [here](https://github.com/bandframework/privateband/blob/team/Resources/bandsdk.md) and should be considered when filling out this form.
