@@ -1,8 +1,8 @@
 # QGP_Bayes
 ### Bayesian parameter estimation code for Relativistic Heavy Ion Collisions
 
-1. Get experimental Data folder and unzip the simulation data
->sh prepare.sh
+1. Clone the repository to your local computer.
+>git clone https://github.com/danOSU/QGP_Bayes.git
 2. Please use environment.yml provided to generate a compatible conda environment.\
 For more information please refer to *[Conda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)* 
 >conda env create --file environment.yml\
