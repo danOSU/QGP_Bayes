@@ -3,6 +3,6 @@
 
 #data files
 *.dat
-
+!Geometry_info.dat
 #python files
 *.pyc
