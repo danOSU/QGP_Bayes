@@ -4,5 +4,6 @@
 #data files
 *.dat
 !Geometry_info.dat
+!simple_emu.dat
 #python files
 *.pyc
