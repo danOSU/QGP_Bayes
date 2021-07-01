@@ -1,6 +1,7 @@
 #MCMC
 *.h5
-
+#Figures
+*.png
 #data files
 *.dat
 !Geometry_info.dat
