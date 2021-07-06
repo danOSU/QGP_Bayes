@@ -2,6 +2,7 @@
 *.h5
 #Figures
 *.png
+*/*.png
 #data files
 *.dat
 !Geometry_info.dat
