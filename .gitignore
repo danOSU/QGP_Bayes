@@ -7,5 +7,10 @@
 *.dat
 !Geometry_info.dat
 !simple_emu.dat
+!PbPb2760_emulators_scikit.dat
 #python files
 *.pyc
+
+.DS_Store
+*/.DS_Store
+
