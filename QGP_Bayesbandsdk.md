@@ -21,7 +21,7 @@
 | # | Policy                 |Support| Notes                   |
 |---|-----------------------|-------|-------------------------|
 | 1. | Support BAND community GNU Autoconf, CMake, or other build options |partially compliant| The code is in Python.It provides an environment.yml file to make a conda environment with relevent dependenicies. But it does not contain a setup/instalation file. Can be Python packaged;see below. [M1 details](#m1-details)|
-| 2. | Have a README file in the top directory that states a specific set of testing procedures for a user to verify the software was installed and run correctly. [M2 details](#m2-details)| Full| None.|
+| 2. | Have a README file in the top directory that states a specific set of testing procedures for a user to verify the software was installed and run correctly | fully compliant| The user will run all and reproduce the plots that are in the tutorial notebook as a test.|
 | 3. | Provide a documented, reliable way to contact the development team |fully compliant| Development team can be contacted via github||
 | 4. | Come with an open-source license |fully compliant| Use MIT license.|
 | 5. | Provide a runtime API to return the current version number of the software |not compliant|No API has been designed. For now the code is a collection of python modules under one src folder|
@@ -30,7 +30,6 @@
 | 8. | Have no hardwired print or IO statements that cannot be turned off |not compliant| There are print statements that can not be turned off|
 
 M1 details <a id="m1-details"></a>: https://packaging.python.org/tutorials/packaging-projects/
-M2 details <a id="m2-details"></a>: The user will run all and reproduce the plots that are in the tutorial notebook as a test.
 
 ### Recommended Policies
 
