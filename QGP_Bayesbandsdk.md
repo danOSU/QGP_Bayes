@@ -1,4 +1,4 @@
-# BAND SDK v0.1 Community Policy Compatibility for QGP_Bayes
+# BAND SDK v0.2 Community Policy Compatibility for QGP_Bayes
 
 > This document summarizes the efforts of current and future BAND member packages to achieve compatibility with the BAND SDK community policies.  Additional details on the BAND SDK are available [here](https://raw.githubusercontent.com/bandframework/bandframework/main/resources/sdkpolicies/bandsdk.md) and should be considered when filling out this form. The most recent copy of this template exists [here](https://raw.githubusercontent.com/bandframework/bandframework/main/resources/sdkpolicies/template.md).
 >
@@ -13,7 +13,7 @@
 **Website:** https://github.com/danOSU/QGP_Bayes/
 **Contact:** through github
 **Icon:** None
-**Description:**  JETSCAPE Bayesian Analysis Code
+**Description:**  Bayesian Parameter Estimation Tutorial for Heavy Ion Collisions
 
 ### Mandatory Policies
 
@@ -21,21 +21,22 @@
 | # | Policy                 |Support| Notes                   |
 |---|-----------------------|-------|-------------------------|
 | 1. | Support BAND community GNU Autoconf, CMake, or other build options |partially compliant| The code is in Python.It provides an environment.yml file to make a conda environment with relevent dependenicies. But it does not contain a setup/instalation file. Can be Python packaged;see below. [M1 details](#m1-details)|
-| 2. | Provide a comprehensive test suite for correctness of installation verification |not compliant| No tests are provided at this time.|
+| 2. | Have a README file in the top directory that states a specific set of testing procedures for a user to verify the software was installed and run correctly. [M2 details](#m2-details)| Full| None.|
 | 3. | Provide a documented, reliable way to contact the development team |fully compliant| Development team can be contacted via github||
 | 4. | Come with an open-source license |fully compliant| Use MIT license.|
 | 5. | Provide a runtime API to return the current version number of the software |not compliant|No API has been designed. For now the code is a collection of python modules under one src folder|
-| 6. | Provide a BAND team-accessible repository |fully compliant|https://github.com/j-f-paquet/emulator-validation.git|
+| 6. | Provide a BAND team-accessible repository |fully compliant|https://github.com/danOSU/QGP_Bayes/|
 | 7. | Must allow installing, building, and linking against an outside copy of all imported software that is externally developed and maintained |fully compliant| The code does not contain any other package's source code within. Note that Python packages are imported using the conventional `sys.path` system. Alternative instances of a package can be used, for example, by including them through an appropriate definition of the PYTHONPATH environment variable.|
-| 8. |  Have no hardwired print or IO statements that cannot be turned off |not compliant| There are print statements that can not be turned off|
+| 8. | Have no hardwired print or IO statements that cannot be turned off |not compliant| There are print statements that can not be turned off|
 
 M1 details <a id="m1-details"></a>: https://packaging.python.org/tutorials/packaging-projects/
+M2 details <a id="m2-details"></a>: The user will run all and reproduce the plots that are in the tutorial notebook as a test.
 
 ### Recommended Policies
 
 | # | Policy                 |Support| Notes                   |
 |---|------------------------|-------|-------------------------|
-|**R1.**| Have a public repository. |fully compliant| https://github.com/j-f-paquet/emulator-validation.git|
+|**R1.**| Have a public repository. |fully compliant| https://github.com/danOSU/QGP_Bayes/|
 |**R2.**| Free all system resources acquired as soon as they are no longer needed. |fully compliant| Python has built-in garbage collection that frees memory when it becomes unreferenced. |
 |**R3.**| Provide a mechanism to export ordered list of library dependencies. |not compliant|Proper instalation of dependencies has yet to be included|
 |**R4.**| Document versions of packages that it works with or depends upon, preferably in machine-readable form.  |fully compliant| Conda environement.yml file is provided with relevent dependenicies and in machine-readable form|
